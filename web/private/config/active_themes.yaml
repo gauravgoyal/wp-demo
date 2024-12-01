@@ -1,0 +1,4 @@
+current_theme: 'Home Renovation Agency'
+tax/wp_theme: {  }
+.label: 'Active Themes'
+.tax/wp_theme_format: json

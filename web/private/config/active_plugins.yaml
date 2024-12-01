@@ -1,0 +1,4 @@
+active_plugins:
+    - wp-cfm/wp-cfm.php
+.label: 'Active Plugins'
+.active_plugins_format: serialized
