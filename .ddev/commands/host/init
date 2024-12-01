@@ -4,6 +4,7 @@ ddev stop -OR
 ddev start
 
 ddev composer install --no-interaction
-ddev exec -- wp core install --url="$DDEV_PRIMARY_URL" --title="WP Demo" --admin_user=admin --admin_email=admin@example.com --admin_password=admin
+ddev exec -- wp core install --url="$DDEV_PRIMARY_URL" --title='WP' --admin_user=admin --admin_email=admin@example.com --admin_password=admin
 ddev exec -- wp plugin activate wp-cfm
 ddev exec -- wp config pull all
+ddev exec -- wp cache flush
